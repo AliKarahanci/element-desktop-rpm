@@ -29,12 +29,12 @@ Element is a Matrix-based end-to-end encrypted messenger and secure collaboratio
 rm -rf %{buildroot}
 
 # binary
-mkdir -p %{buildroot}/opt/element
-cp -a * %{buildroot}/opt/element/
+mkdir -p %{buildroot}/opt/Element
+cp -a * %{buildroot}/opt/Element/
 
 # launcher
 mkdir -p %{buildroot}/usr/bin
-ln -s /opt/element/element-desktop %{buildroot}/usr/bin/element-desktop
+ln -s /opt/Element/element-desktop %{buildroot}/usr/bin/element-desktop
 
 # share contents (applications, icons, doc)
 mkdir -p %{buildroot}/usr/share
@@ -42,7 +42,7 @@ cp -a applications icons doc %{buildroot}/usr/share/
 
 %files
 /usr/bin/element-desktop
-/opt/element
+/opt/Element
 /usr/share/applications
 /usr/share/icons
 /usr/share/doc
