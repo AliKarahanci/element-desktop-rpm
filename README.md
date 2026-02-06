@@ -8,7 +8,7 @@ Element Desktop RPM Fedora build is community project, not official.
 
 Installation
 ```bash
-sudo dnf install https://github.com/AliKarahanci/element-desktop-rpm/releases/download/releases/v1.12.9
+sudo dnf install https://github.com/AliKarahanci/element-desktop-rpm/releases/download/releases/v1.12.9/element-desktop-1.12.9-1.fc43.x86_64.rpm
 ```
 
 ## Element
