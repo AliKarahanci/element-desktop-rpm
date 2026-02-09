@@ -1,13 +1,15 @@
 # element-desktop-rpm
 RPM build for Element Desktop
 
-Maintainer of unofficial Fedora build of element desktop: <br>
+Maintainer of unofficial Fedora and OpenSUSE build of element desktop: <br>
 `Ali <karahanciali@hotmail.com>`
 
-Installation
+## Installation
+### Fedora
 ```bash
 sudo dnf install https://github.com/AliKarahanci/element-desktop-rpm/releases/download/v1.12.9/element-desktop-1.12.9-1.fc43.x86_64.rpm
 ```
+### OpenSUSE
 
 ## Element
 Element, the Element name, logo and associated trademarks are the property of Element Creations Ltd. 
