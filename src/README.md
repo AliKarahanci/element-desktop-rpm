@@ -1,4 +1,4 @@
-This foled is forked from Element's debian built.
+This foled is forked from Element's debian build.
 
 sha256sum
 ```sha256sum
